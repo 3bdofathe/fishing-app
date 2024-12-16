@@ -1,0 +1,56 @@
+
+
+.lapelContact{
+    font-family: var(--fontQuicksand);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px ;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+.btnContact{
+    margin-top: 100px !important;
+    width: 200px !important;
+    height: 55px !important;
+    border-radius: 50px !important;
+    background: var(--btnBg) !important;
+    border: none !important;
+    font-family: var(--fontQuicksand) !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: rgba(255, 255, 255, 1) !important;
+    text-transform: capitalize !important;   
+}
+.btnContact:hover{
+    background: var(--btnhover) !important;
+}
+.btnContactBack{
+    margin-top: 100px !important;
+    width: 150px !important;
+    height: 55px !important;
+    border-radius: 50px !important;
+    border: 1px solid rgba(104, 86, 214, 1) !important;
+    font-family: var(--fontQuicksand) !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: rgba(104, 86, 214, 1) !important;  
+    text-transform: capitalize !important; 
+}
+
+.btnContactBack:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+@media (max-width: 920px){
+    .btnContact{
+        width: 130px !important;
+        height: 50px !important;
+        font-size: 16px !important;
+    }
+    .btnContactBack{
+        width: 100px !important;
+        height: 50px !important;
+        font-size: 16px !important;
+    }
+}
+
